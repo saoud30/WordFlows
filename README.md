@@ -9,7 +9,7 @@
 
 **Master Your Typing Skills with Style**
 
-[Live Demo](https://wordflows.vercel.app) | [Report Bug](https://github.com/Saoud30/WordFlows/issues) | [Request Feature](https://github.com/Saoud30/WordFlows/issues)
+[Live Demo](https://wordflows.netlify.app/) | [Report Bug](https://github.com/Saoud30/WordFlows/issues) | [Request Feature](https://github.com/Saoud30/WordFlows/issues)
 
 <div align="center">
   <img src="baker.png" alt="Flixir Screenshot">
