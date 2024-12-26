@@ -1,0 +1,42 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes border-beam {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.animated-border {
+  --border-size: 2px;
+  --border-bg: linear-gradient(
+    90deg,
+    #ff5733,
+    #3498db,
+    #2ecc71,
+    #e74c3c,
+    #f39c12,
+    #9b59b6,
+    #ff5733
+  );
+  
+  position: relative;
+  background: var(--border-bg);
+  background-size: 200% auto;
+  animation: border-beam 3s linear infinite;
+  border-radius: 0.5rem;
+  padding: var(--border-size);
+}
+
+.animated-border::after {
+  content: "";
+  position: absolute;
+  inset: var(--border-size);
+  background: black;
+  border-radius: calc(0.5rem - var(--border-size));
+}
