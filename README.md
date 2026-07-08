@@ -132,9 +132,6 @@ Project Link: [https://github.com/Saoud30/wordflows](https://github.com/Saoud30/
 
 ---
 
-<div align="center">
-  
-Made with ❤️ by [Saoud30](https://github.com/Saoud30)
 
 ⭐️ Star this project if you find it helpful!
 
